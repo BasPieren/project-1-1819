@@ -1,4 +1,8 @@
+import { removeMain } from './helper.js'
+
 function homePage() {
+  removeMain()
+
   const body = document.querySelector('body'),
         main = document.createElement('main'),
         h3 = document.createElement('h3'),
@@ -14,7 +18,7 @@ function homePage() {
                   Amsterdam (OBA)  en ga aan de slag. Meedoen
                   is gratis.`
   a.textContent = 'volgende'
-  a.href = '#test'
+  a.href = '#leren'
   a.className = 'oba-main-button'
 
   body.appendChild(main)
@@ -40,4 +44,20 @@ function homePage() {
   main.appendChild(a)
 }
 
-export { homePage }
+function choosePage() {
+  removeMain()
+
+  const body = document.querySelector('body'),
+        main = document.createElement('main'),
+        a = document.createElement('a')
+
+  a.textContent = 'terug'
+  a.href = '#home'
+  a.className = 'oba-main-button'
+
+  body.appendChild(main)
+
+  main.appendChild(a)
+}
+
+export { homePage, choosePage }
