@@ -1,4 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+/* ---------- GENERAL ---------- */
+
+:root {
+  --border-grey: #e6e6e6;
+  --button-hover-grey: #454545;
+}
+
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+h1, h2, h3, h4, h5, h6, p, figcaption, a {
+  font-family: 'Lato', sans-serif;
+}
+
+.oba-main-button {
+  margin: 5px 0 5px 0;
+  padding: 0.5em 1em;
+  color: #fff;
+  text-decoration: none;
+  background: #000;
+  border-radius: 0;
+  text-align: center;
+}
+
+.oba-main-button:hover {
+  background-color: var(--button-hover-grey);
+}
+
+.oba-main-button:after {
+  display: inline-block;
+  content: '';
+  margin-left: 0.75em;
+  width: 0;
+  height: 0;
+  border-top: 6.5px solid transparent;
+  border-left: 13px solid #ffffff;
+  border-bottom: 6.5px solid transparent;
+}
+
+/* ---------- HEADER ---------- */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1em;
+  border-bottom: 1px solid var(--border-grey);
+}
+
+header > h2 {
+  margin: 0 auto;
+}
+
+.oba-logo {
+  width: auto;
+  height: 75px;
+}
+
+/* ---------- MAIN ---------- */
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 2.5em;
+  grid-row-gap: 5em;
+  justify-items: center;
+  padding: 1em;
+}
+
+main > h3, p, a{
+  grid-column: 1 / end;
+  text-align: center;
+}
+
+.oba-flag {
+  width: 225px;
+  height: auto;
+}
+
+figcaption {
+  margin-top: 0.5em;
+  text-align: center;
 }
