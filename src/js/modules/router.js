@@ -4,6 +4,9 @@ function router() {
   routie({
     'home': () => {
       render.homePage()
+    },
+    'leren': () => {
+      render.choosePage()
     }
   })
 
