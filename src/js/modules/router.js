@@ -7,6 +7,21 @@ function router() {
     },
     'leren': () => {
       render.choosePage()
+    },
+    'taal': () => {
+      render.languagePage()
+    },
+    'computer': () => {
+      render.computerPage()
+    },
+    'financien': () => {
+      render.financePage()
+    },
+    'inburgering': () => {
+      render.integrationPage()
+    },
+    'agenda': () => {
+      render.agendaPage()
     }
   })
 
