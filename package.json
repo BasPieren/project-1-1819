@@ -4,7 +4,8 @@
   "description": "This is my repo for project 1 of the web development minor.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prjs": "prettier --single-quote --no-semi --write src/js/*.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/BasPieren/project-1-1819#readme",
   "dependencies": {
-    "oba-wrapper": "github:maanlamp/OBA-wrapper"
+    "oba-wrapper": "github:maanlamp/OBA-wrapper",
+    "prettier": "^1.16.4"
   }
 }
