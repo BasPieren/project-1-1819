@@ -7,7 +7,7 @@ function filterData(e) {
           cover_image: a.coverimages.coverimage._text
         }
       })
-
+          
   localStorage.setItem('data', JSON.stringify(dataFiltered))
 }
 
