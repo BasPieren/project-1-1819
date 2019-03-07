@@ -2,6 +2,8 @@
 
 This is my repo for project 1 of the web development minor.
 
+![Project 1 screenshot](https://i.imgur.com/xbocDDu.png)
+
 ## Table of Contents 🗃
 * [To Do](#to-do-)
 * [Description](#description-)
@@ -14,13 +16,14 @@ This is my repo for project 1 of the web development minor.
 * [Licence](#licence-)
 
 ## To Do 📌
-This is a list of things I want to do in this course:
+This is a list of things I want to do in this project:
 
-- [ ] .
+- [X] Use a clear naming syntax for my variables, functions and modules.
+- [X] Learn to make better use of helper functions.
 
 
 ## Description 📝
-
+For this project I decided to work the UX flow of the [Leren bij de OBA](https://www.oba.nl/educatie/leren.html) web page. The page focuses on offering people help with things like the Dutch language, computers and their finances through courses which they can follow. When I first looked at the page I found some things where not very well thought out like the fact that their was no language select option and the very cluttered agenda page. This where some things I wanted to tackle.
 
 ## Installing 🔍
 To install this application enter the following into your terminal:
@@ -35,7 +38,6 @@ npm install
 ### Packages and Technologies
 This project makes use of the following packages and technologies:
 
-* [OBA API](https://zoeken.oba.nl/api/v1/)
 * [OBA-wrapper by @maanlamp](https://github.com/maanlamp/OBA-wrapper)
 
 ## API 🐒
@@ -49,20 +51,10 @@ Here I explain some of the core functionalities of this project.
 
 ## Sources 📚
 
+* [How To - Google Translate](https://www.w3schools.com/howto/howto_google_translate.asp)
 
 ### Honourable Mentions
 
 
 ## Licence 🔓
 MIT © [Bas Pieren](https://github.com/BasPieren)
-
-
-<!-- # Project 1 @cmda-minor-web · 2018-2019
-
-## Zoek in de de collectie van de OBA
-
-Het project vindt plaats bij de Centrale OBA. Maandagochtend is om 10.00 uur de kickoff, vrijdag zijn de presentaties van de resultaten. In een week bouwt iedere student een eigen prototype dat bezoekers kan helpen om items uit de OBA collectie te vinden. Technieken geleerd bij [CSS to the Rescue](https://github.com/cmda-minor-web/css-to-the-rescue-1819) en [Web App from Scratch](https://github.com/cmda-minor-web/web-app-from-scratch-1819) worden toegepast bij het bouwen van de de prototypes.
-
-We verzamelen maandagochtend om 09.45 op de 1e verdieping van de Centrale OBA, [Oosterdokskade 143](https://www.google.com/maps/place/OBA+library+of+Amsterdam/@52.3756983,4.9082087,15z/data=!4m2!3m1!1s0x0:0x6b97f693e6ecb494?ved=2ahUKEwioo6OrzubgAhWLNOwKHR6KDQgQ_BIwCnoECAYQCA).
-
- -->
