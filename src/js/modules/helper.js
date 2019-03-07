@@ -7,10 +7,16 @@ function removeMain() {
   }
 }
 
-function createElements() {
+function domElements() {
   const obj = {
-    body: document.querySelector('body'),
+    bodyS: document.querySelector('body'),
     main: document.createElement('main'),
+    mainS: document.querySelector('main'),
+    section: document.createElement('section'),
+    article: document.createElement('article'),
+    figure: document.createElement('figure'),
+    figureCaption: document.createElement('figcaption'),
+    div: document.createElement('div'),
     h1: document.createElement('h1'),
     h2: document.createElement('h2'),
     h3: document.createElement('h3'),
@@ -18,7 +24,8 @@ function createElements() {
     h5: document.createElement('h5'),
     h6: document.createElement('h6'),
     p: document.createElement('p'),
-    a: document.createElement('a')
+    a: document.createElement('a'),
+    img: document.createElement('img')
   }
 
   return obj
@@ -44,4 +51,4 @@ function renderCourses(main, courses) {
   })
 }
 
-export { removeMain, createElements, renderCourses }
+export { removeMain, domElements, renderCourses }
