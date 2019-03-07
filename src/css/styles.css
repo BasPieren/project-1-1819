@@ -38,7 +38,7 @@ article {
   flex-direction: column;
   justify-content: space-between;
   padding: 2em;
-  height: 250px;
+  min-height: 250px;
   border: 1px solid var(--border-grey)
 }
 
@@ -128,4 +128,19 @@ header > h2 {
 .oba-flag {
   width: 225px;
   height: auto;
+}
+
+/* ---------- MAIN: Agenda ---------- */
+
+.oba-agenda-article > img{
+  width: 100%;
+  height: auto;
+}
+
+.oba-agenda-article > h3{
+  margin: 1em 0;
+}
+
+.oba-agenda-article > a{
+  margin: 1em 0 0 0;
 }
