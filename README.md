@@ -10,7 +10,6 @@ This is my repo for project 1 of the web development minor.
 * [Installing](#installing-)
   * [Packages and Technologies](#packages-and-technologies)
 * [API](#api-)
-* [How It Works](#how-it-works-)
 * [Sources](#sources-)
   * [Honourable Mentions](#honourable-mentions)
 * [Licence](#licence-)
@@ -45,16 +44,14 @@ I made use of the following API for this project:
 
 * [OBA API](https://zoeken.oba.nl/api/v1/)
 
-## How It Works 🛠️
-Here I explain some of the core functionalities of this project.
-
-
 ## Sources 📚
 
 * [How To - Google Translate](https://www.w3schools.com/howto/howto_google_translate.asp)
 
 ### Honourable Mentions
 
+* [Help from Jesse Dijkman](https://github.com/jesseDijkman1)
+* [Help from Jeroen van Berkum](https://github.com/jeroentvb)
 
 ## Licence 🔓
 MIT © [Bas Pieren](https://github.com/BasPieren)
