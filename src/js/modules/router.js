@@ -24,7 +24,7 @@ function router() {
       render.agendaPage()
     },
     'agenda-detail': () => {
-      render.agendaPage()
+      render.agendaDetailPage()
     }
   })
 

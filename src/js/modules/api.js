@@ -1,4 +1,5 @@
 import { filterData } from './filter.js'
+import { storeData } from './store.js'
 
 async function getData(search, type) {
   const api = new API({
@@ -9,6 +10,7 @@ async function getData(search, type) {
 
   stream
     .pipe(filterData)
+    .pipe(storeData)
     .catch(console.error);
 }
 
