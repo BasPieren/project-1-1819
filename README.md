@@ -18,8 +18,8 @@ This is my repo for project 1 of the web development minor.
 ## To Do 📌
 This is a list of things I want to do in this project:
 
-- [X] Use a clear naming syntax for my variables, functions and modules.
-- [X] Learn to make better use of helper functions.
+- [X] Use a clear naming syntax for my `variables`, `functions` and `modules`.
+- [X] Learn to make better use of helper `functions`.
 
 
 ## Description 📝
