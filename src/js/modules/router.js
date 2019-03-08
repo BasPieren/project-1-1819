@@ -2,7 +2,7 @@ import * as render from './render.js'
 
 function router() {
   routie({
-    'home': () => {
+    'leren-bij-de-oba': () => {
       render.homePage()
     },
     'leren': () => {
@@ -28,7 +28,7 @@ function router() {
     }
   })
 
-  routie('home')
+  routie('leren-bij-de-oba')
 }
 
 export { router }
