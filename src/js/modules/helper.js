@@ -13,6 +13,7 @@ function domElements() {
     main: document.createElement('main'),
     mainS: document.querySelector('main'),
     section: document.createElement('section'),
+    sectionS: document.querySelector('section'),
     article: document.createElement('article'),
     div: document.createElement('div'),
     h1: document.createElement('h1'),
