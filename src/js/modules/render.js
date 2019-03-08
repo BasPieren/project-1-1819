@@ -85,6 +85,7 @@ function languagePage() {
   helper.removeMain()
 
   domElement.h3.textContent = 'Taal'
+  domElement.p.textContent = 'Kies een cursus'
   domElement.a.textContent = 'terug naar de vorige pagina'
   domElement.a.href = '#leren'
   domElement.a.className = 'oba-main-button'
@@ -92,6 +93,7 @@ function languagePage() {
   domElement.bodyS.appendChild(domElement.main)
   domElement.main.appendChild(domElement.a)
   domElement.main.appendChild(domElement.h3)
+  domElement.main.appendChild(domElement.p)
 
   helper.renderCourses(domElement.main, courses)
 
@@ -122,6 +124,7 @@ function computerPage() {
   helper.removeMain()
 
   domElement.h3.textContent = 'Computer'
+  domElement.p.textContent = 'Kies een cursus'
   domElement.a.textContent = 'terug naar de vorige pagina'
   domElement.a.href = '#leren'
   domElement.a.className = 'oba-main-button'
@@ -129,6 +132,7 @@ function computerPage() {
   domElement.bodyS.appendChild(domElement.main)
   domElement.main.appendChild(domElement.a)
   domElement.main.appendChild(domElement.h3)
+  domElement.main.appendChild(domElement.p)
 
   helper.renderCourses(domElement.main, courses)
 }
@@ -143,6 +147,7 @@ function financePage() {
   helper.removeMain()
 
   domElement.h3.textContent = 'Financiën'
+  domElement.p.textContent = 'Kies een cursus'
   domElement.a.textContent = 'terug naar de vorige pagina'
   domElement.a.href = '#leren'
   domElement.a.className = 'oba-main-button'
@@ -150,6 +155,7 @@ function financePage() {
   domElement.bodyS.appendChild(domElement.main)
   domElement.main.appendChild(domElement.a)
   domElement.main.appendChild(domElement.h3)
+  domElement.main.appendChild(domElement.p)
 
   helper.renderCourses(domElement.main, courses)
 }
@@ -162,6 +168,7 @@ function integrationPage() {
   helper.removeMain()
 
   domElement.h3.textContent = 'Integratie'
+  domElement.p.textContent = 'Kies een cursus'
   domElement.a.textContent = 'terug naar de vorige pagina'
   domElement.a.href = '#leren'
   domElement.a.className = 'oba-main-button'
@@ -169,6 +176,7 @@ function integrationPage() {
   domElement.bodyS.appendChild(domElement.main)
   domElement.main.appendChild(domElement.a)
   domElement.main.appendChild(domElement.h3)
+  domElement.main.appendChild(domElement.p)
 
   helper.renderCourses(domElement.main, courses)
 }
@@ -182,6 +190,7 @@ function agendaPage() {
   helper.removeMain()
 
   domElement.h3.textContent = 'Agenda'
+  domElement.p.textContent = 'Kies een item'
   domElement.a.textContent = 'terug naar de vorige pagina'
   domElement.a.href = 'javascript:history.back()'
   domElement.a.className = 'oba-main-button'
@@ -189,6 +198,7 @@ function agendaPage() {
   domElement.bodyS.appendChild(domElement.main)
   domElement.main.appendChild(domElement.a)
   domElement.main.appendChild(domElement.h3)
+  domElement.main.appendChild(domElement.p)
 
   parseData.forEach(book => {
     const domElement = helper.domElements()
