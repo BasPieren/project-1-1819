@@ -48,7 +48,7 @@ function choosePage() {
 
   domElement.h3.textContent = 'Waar heb je hulp mee nodig?'
   domElement.a.textContent = 'terug naar de vorige pagina'
-  domElement.a.href = '#home'
+  domElement.a.href = '#leren-bij-de-oba'
   domElement.a.className = 'oba-main-button'
 
   domElement.bodyS.appendChild(domElement.main)
@@ -63,6 +63,7 @@ function choosePage() {
     domElement.a.href = categorie.src
     domElement.a.className = 'oba-main-button'
     domElement.img.src = categorie.icon
+    domElement.img.className = 'oba-categorie-icon'
 
     domElement.mainS.appendChild(domElement.article)
     domElement.article.appendChild(domElement.img)
@@ -94,22 +95,19 @@ function languagePage() {
 
   helper.renderCourses(domElement.main, courses)
 
+  domElement.main.appendChild(domElement.section)
+
   parseData.forEach(book => {
     const domElement = helper.domElements()
 
-    domElement.article.className = 'oba-agenda-article'
     domElement.h3.textContent = book.title
     domElement.p.textContent = book.summaries
-    domElement.a.textContent = 'details'
-    domElement.a.href = '#agenda-detail'
-    domElement.a.className = 'oba-main-button'
     domElement.img.src = book.cover_image
 
-    domElement.mainS.appendChild(domElement.article)
+    domElement.sectionS.appendChild(domElement.article)
     domElement.article.appendChild(domElement.img)
     domElement.article.appendChild(domElement.h3)
     domElement.article.appendChild(domElement.p)
-    domElement.article.appendChild(domElement.a)
   })
 }
 
@@ -195,7 +193,6 @@ function agendaPage() {
   parseData.forEach(book => {
     const domElement = helper.domElements()
 
-    domElement.article.className = 'oba-agenda-article'
     domElement.h3.textContent = book.title
     domElement.p.textContent = book.summaries
     domElement.a.textContent = 'details'
@@ -219,7 +216,6 @@ function agendaDetailPage() {
 
   helper.removeMain()
 
-  domElement.main.className = 'oba-main-agenda-detail'
   domElement.h3.textContent = parseData[0].title
   domElement.p.textContent = parseData[0].summaries
   domElement.a.textContent = 'terug naar de vorige pagina'
